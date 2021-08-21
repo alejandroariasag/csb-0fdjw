@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap");
+
+:root {
+  --gren: #54e6af;
+  --dark-blue: #2c344b;
+  --black: #121725;
+  --blue: #5a668a;
+  --light-blue: #c2cbe5;
+}
+
+body {
+  font-family: "Chivo", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  background-color: var(--black);
+  background-image: url(assets/desktop/image-host.jpg);
+  background-repeat: no-repeat;
+  background-position: right 130px;
+  margin: 0;
+}
+
+h1 {
+  padding-top: 40px;
+  font-size: 52px;
+  line-height: 62px;
+  text-transform: uppercase;
+  color: var(--gren);
+}
+
+h1 > span {
+  color: white;
+}
+
+p {
+  max-width: 445px;
+  color: var(--light-blue);
+}
+.form {
+  margin-top: 40px;
+}
+input[type="email"] {
+  background: var(--dark-blue);
+  border-radius: 28px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  mix-blend-mode: normal;
+  opacity: 1;
+
+  width: 350px;
+  height: 56px;
+  padding-right: 162px;
+  padding-left: 20px;
+  border: 0;
+}
+
+input[type="email"]::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+input[type="email"]:focus {
+  outline: none;
+}
+
+input[type="submit"] {
+  background: var(--gren);
+  box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.2);
+  border-radius: 28px;
+  color: var(--black);
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: -173px;
+  height: 46px;
+  width: 162px;
+  border: 0;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: #b3ffe2;
+}
+
+#validation {
+  font-size: 12px;
+  font-weight: bold;
+  color: #fb3e3e;
+  padding-left: 20px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.container {
+  width: 1233px;
+  position: absolute;
+  right: 0;
+  top: 102px;
+}
+
+header {
+  background-image: url(assets/desktop/logo.svg);
+  background-repeat: no-repeat;
+  height: 56px;
+}
+
+section {
+  max-width: 723px;
+  min-height: 509px;
+  background-color: var(--black);
+}
+
+.logos {
+  height: 30px;
+  background-image: url(assets/desktop/spotify.svg),
+    url(assets/desktop/apple-podcast.svg),
+    url(assets/desktop/google-podcasts.svg),
+    url(assets/desktop/pocket-casts.svg);
+  background-repeat: no-repeat;
+  background-position: 0px 0px, 136px 0px, 254px 5px, 419px 0, 459px 0;
+}
+
+.pattern-dots {
+  position: absolute;
+  right: 0px;
+  background-image: url(assets/bg-pattern-dots.svg);
+  background-repeat: no-repeat;
+  height: 116px;
+  width: 226px;
+}

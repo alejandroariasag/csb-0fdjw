@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style-2.css" />
+    <link rel="stylesheet" href="tablet.css" />
+    <link rel="stylesheet" href="desktop.css" />
+    <title>Frontend Mentor | Pod request access landing page</title>
+
+    <script type="text/javascript">
+      function checkEmail() {
+        var validation = document.getElementById("validation");
+        var email = document.getElementById("email");
+        var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+        if (!filter.test(email.value)) {
+          validation.classList.toggle("hidden");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <header></header>
+      <section>
+        <h1>Publish your podscats <span>everywhere.</span></h1>
+        <p>
+          Upload your audio to Pod with a single click. We’ll then distribute
+          your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts
+          and more!
+        </p>
+        <div class="form">
+          <input id="email" type="email" placeholder="Email Address" required />
+          <input
+            type="submit"
+            placeholder="Request Access"
+            onclick="Javascript:checkEmail()"
+            ;
+          />
+          <div id="validation" class="hidden">Oops! Check your email!</div>
+        </div>
+        <div class="logos"></div>
+      </section>
+      <div class="pattern-dots"></div>
+    </div>
+  </body>
+</html>
