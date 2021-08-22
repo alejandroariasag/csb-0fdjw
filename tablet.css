@@ -1,32 +1,88 @@
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media (min-width: 606px) and (max-width: 1249px) {
   body {
     background-image: url(assets/tablet/image-host.jpg);
     background-repeat: no-repeat;
     background-position: right top;
-    overflow: hidden;
+    overflow-x: hidden;
+  }
+  h1 {
+    padding-top: 40px;
+    font-size: 52px;
+    line-height: 62px;
+    text-align: left;
+  }
+  p {
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 445px;
+    text-align: left;
+  }
+  .form {
+    text-align: left;
+  }
+  header {
+    background-position: left top;
+  }
+
+  .logos {
+    height: 30px;
+    background-position: 0px 0px, 136px 0px, 254px 5px, 419px 0, 459px 0;
   }
 
   .container {
+    background-color: unset;
     position: unset;
-    margin-top: 56px;
     margin-left: 39px;
   }
 
   header {
+    margin-top: 50px;
+    margin-left: 0px;
+    padding: 0px;
   }
+
   section {
+    display: inherit;
     position: absolute;
     left: 0px;
     max-width: 635px;
     min-height: 509px;
-    margin-top: calc(258px - 56px);
+    margin-top: 152px;
     margin-left: 39px;
+    background-color: var(--black);
   }
 
   .pattern-dots {
+    display: inherit;
     position: absolute;
     left: 0px;
     bottom: 0px;
     margin: 0px;
+    background-image: url(assets/bg-pattern-dots.svg);
+    background-repeat: no-repeat;
+    height: 116px;
+    width: 226px;
+  }
+
+  input[type="email"] {
+    width: 350px;
+    height: 56px;
+    padding-right: 162px;
+    padding-left: 20px;
+    border: 0;
+  }
+
+  input[type="email"]::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  input[type="email"]:focus {
+    outline: none;
+  }
+
+  input[type="submit"] {
+    margin-left: -173px;
+    height: 46px;
+    width: 162px;
   }
 }

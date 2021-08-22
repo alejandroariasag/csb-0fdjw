@@ -1,0 +1,82 @@
+@media (min-width: 1250px) {
+  body {
+    background-image: url(assets/desktop/image-host.jpg);
+    background-repeat: no-repeat;
+    background-position: right 130px;
+    margin: 0;
+  }
+  h1 {
+    text-align: left;
+  }
+  h1 {
+    padding-top: 40px;
+    font-size: 52px;
+    line-height: 62px;
+    text-align: left;
+  }
+  p {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    max-width: 445px;
+  }
+  .form {
+    text-align: left;
+  }
+
+  .container {
+    background-color: unset;
+    width: 1233px;
+    position: absolute;
+    right: 0;
+    top: 102px;
+  }
+  .logos {
+    height: 30px;
+    background-position: 0px 0px, 136px 0px, 254px 5px, 419px 0, 459px 0;
+    background-size: auto;
+  }
+  header {
+    background-position: left top;
+    padding: 0px;
+  }
+  section {
+    display: inherit;
+    max-width: 723px;
+    min-height: 509px;
+    margin-top: 103px;
+    background-color: var(--black);
+  }
+  .pattern-dots {
+    display: inherit;
+    position: absolute;
+    right: 0px;
+    top: 630px;
+    background-image: url(assets/bg-pattern-dots.svg);
+    background-repeat: no-repeat;
+    height: 116px;
+    width: 226px;
+  }
+
+  input[type="email"] {
+    width: 350px;
+    height: 56px;
+    padding-right: 162px;
+    padding-left: 20px;
+    border: 0;
+  }
+
+  input[type="email"]::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  input[type="email"]:focus {
+    outline: none;
+  }
+
+  input[type="submit"] {
+    margin-left: -173px;
+    height: 46px;
+    width: 162px;
+  }
+}
