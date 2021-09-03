@@ -2,7 +2,7 @@
 
 This is a solution to the [Pod request access landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/pod-request-access-landing-page-eyTmdkLSG). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-![Screenshot](./assets/screenshot.png)
+![Screenshot](https://github.com/alejandroariasag/csb-0fdjw/blob/gh-pages/assets/screenshot.png?raw=true)
 
 ## Table of contents
 
@@ -27,6 +27,7 @@ Users should be able to:
 
 ### Links
 
+- GitHub URL: https://github.com/alejandroariasag/csb-0fdjw/
 - Live Site URL: https://alejandroariasag.github.io/csb-0fdjw/
 
 ## My process
@@ -41,4 +42,4 @@ Users should be able to:
 
 ## Author
 
-- Website - Under construction
+- Website - https://www.thequiffrepublic.com
