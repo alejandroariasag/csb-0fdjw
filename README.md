@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- GitHub URL: https://github.com/aleckbeu/Pod-request-access-landing-page//
-- Live Site URL: https://aleckbeu.github.io/Pod-request-access-landing-page//
+- GitHub URL: https://github.com/aleckbeu/Pod-request-access-landing-page/
+- Live Site URL: https://aleckbeu.github.io/Pod-request-access-landing-page/
 
 ## My process
 
