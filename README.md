@@ -2,7 +2,7 @@
 
 This is a solution to the [Pod request access landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/pod-request-access-landing-page-eyTmdkLSG). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-![Screenshot](https://github.com/aleckbeu/Pod-request-access-landing-page//blob/gh-pages/assets/screenshot.png?raw=true)
+![Screenshot](https://github.com/swckd/Pod-request-access-landing-page//blob/gh-pages/assets/screenshot.png?raw=true)
 
 ## Table of contents
 
@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- GitHub URL: https://github.com/aleckbeu/Pod-request-access-landing-page/
-- Live Site URL: https://aleckbeu.github.io/Pod-request-access-landing-page/
+- GitHub URL: https://github.com/swckd/Pod-request-access-landing-page/
+- Live Site URL: https://swckd.github.io/Pod-request-access-landing-page/
 
 ## My process
 
@@ -42,4 +42,4 @@ Users should be able to:
 
 ## Author
 
-- Website - https://www.aleckbeu.com
+- Website - 
